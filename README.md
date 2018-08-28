@@ -8,4 +8,5 @@ sorting algorithm using mkdir
 $ mkdir wkdir
 $ cd wkdir
 $ ./mkdirsort.sh 9 2 7 4 6
+$ rm -rf g/
 ```
