@@ -9,4 +9,4 @@ do
 	shift
 done
 
-find . -type d | sed 's#.*/##' | grep -v g
+ls -lLR | grep "^d" | awk '{print $9}' | grep -v g
